@@ -124,7 +124,75 @@
                                 <h4><strong>Hipster Ultimate</strong></h4>
                                 <p>La camiseta ideal para hipsters.</p>
                                 <button type="button" class="btn btn-primary"><strong>$229</strong><i class="glyphicon glyphicon-shopping-cart"></i></button>
-                                <button type="button" class="btn btn-default">Detalles</button>
+                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Detalles</button>
+                                <!--Modal-->
+                                <div id="myModal" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!--Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title"><strong>Hipster Ultimate</strong></h4>
+                                            </div>
+                                            
+                                            <div class="modal-body">
+                                                <div class="alert alert-info">
+                                                    <strong><i class="glyphicon glyphicon-info-sign"></i>Este producto está agotado.</strong>
+                                                </div>
+                                                <div class="content">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="thumbnail">
+                                                                <img src="./images/camiseta-1.jpg" alt="Camiseta 1">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <p>Precio: <strong>$299</strong></p>
+                                                            <p>Calificación: <i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star-empty"></i></p>
+                                                            <p>
+                                                                <span class="label label-warning"><strong>Hipster</strong></span>
+                                                                <span class="label label-default"><strong>Deportiva</strong></span>    
+                                                            </p>
+                                                            <p>
+                                                                <a href="#"><i class="glyphicon glyphicon-heart"></i>Agregar a los deseos</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <ul class="nav nav-tabs">
+                                                        <li class="active"><a data-toggle="tab" href="#description">Descripción</a></li>
+                                                        <li><a data-toggle="tab" href="#comentarios">Comentarios</a></li>
+                                                    </ul>
+                                                    <div class="tab-content">
+                                                        <div id="description" class="tab-pane fade in active">
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vestibulum blandit, condimentum rutrum at senectus in montes elementum potenti metus scelerisque, ante lacus sociosqu suspendisse euismod maecenas luctus arcu.</p>    
+                                                        </div>
+                                                        <div id="comentarios" class="tab-pane fade">
+                                                            <div class="comment">
+                                                                <div class="panel panel-default">
+                                                                    <div class="panel-heading">Germán Escobar comentó hace 2 días</div>
+                                                                    <div class="panel-body">Esta camiseta está increíble, la quiero!</div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <textarea class="form-control" rows="4" cols="3" placeholder="Ingresa tu comentario"></textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                <button type="button" class="btn btn-primary"><strong>Comprar</strong></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </div>
                         </div>
                     </div>
