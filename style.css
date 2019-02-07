@@ -24,4 +24,16 @@ nav a{
     margin: 90px 60px;
 }
 
+h4{
+    font-weight: bold;
+}
+
+.badge {
+    text-align: right;
+} 
+
+a.list-group-item.active {
+    font-weight: bold;
+}
+
 /*Resposive Design*/
