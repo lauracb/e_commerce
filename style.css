@@ -43,11 +43,11 @@ a.list-group-item.active {
 
 .products {
     margin-left: 15px;
-    margin-top: 20px;
+    margin-top: 20px;  
 }
 
 .imagen {
-    margin: 20px 10px;
+    margin: 20px;
 }
 
 .glyphicon-info-sign, .glyphicon-heart {
@@ -58,5 +58,26 @@ a.list-group-item.active {
     margin: 20px;
 }
 
+.thumbnail {
+  display: inline-block;
+}
+
 
 /*Resposive Design*/
+/*mobiles*/
+@media (max-width: 768px) {
+  .category {
+    visibility: hidden;
+    display: none;
+  }
+ }
+
+ /*tabletas*/
+ @media (max-width: 991px) {
+  .category {
+    visibility: hidden;
+    display: none;
+  }
+
+ 
+ }

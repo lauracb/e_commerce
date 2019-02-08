@@ -17,11 +17,20 @@
     <!--Navbar-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
                 <p class="navbar-text">E-commerce</p>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Canasta</a></li>
-                <li><a class="salir" href="#">Salir</a></li>
-            </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Canasta</a></li>
+                        <li><a class="salir" href="#">Salir</a></li> 
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -40,7 +49,7 @@
                 </div>
                 <br>
                 
-                <div class="row">
+                <div class="row category">
                     <!--List-group of categories-->
                     <h4><strong>Categorías</strong></h4>
                     <div class="list-group">
@@ -113,12 +122,13 @@
                     </div>
                 </div>
 
-                <div class="products">
+                
                 <div class="row">
                     <!--Products-->
-                    <div class="col-md-4">
+                    <div class="products">
+                    <div class="col-xs-6 col-sm-6 col-md-4">
                         <!--Product 1-->
-                        <div class="thumbnail">
+                        <div class="thumbnail div_common">
                             <img src="./images/camiseta-1.jpg" alt="Camiseta 1">
                             <div class="imagen">
                                 <h4><strong>Hipster Ultimate</strong></h4>
@@ -194,12 +204,14 @@
                                 </div>
 
                             </div>
-                        </div>
+                        
                     </div>
 
-                    <div class="col-md-4">
+                </div>
+                
+                <div class="col-xs-6 col-sm-6 col-md-4">
                         <!--Product 2-->
-                        <div class="thumbnail">
+                        <div class="thumbnail div_common">
                             <img src="./images/camiseta-2.jpg" alt="Camiseta 2">
                             <div class="imagen">
                                 <h4><strong>On Motion Live</strong></h4>
@@ -208,11 +220,12 @@
                                 <button type="button" class="btn btn-default">Detalles</button>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-md-4">
+                    
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-4">
+                    
                         <!--Product 3-->
-                        <div class="thumbnail">
+                        <div class="thumbnail div_common">
                             <img src="./images/camiseta-3.jpg" alt="Camiseta 3">
                             <div class="imagen">
                                 <h4><strong>Underground Max</strong></h4>
@@ -221,36 +234,38 @@
                                 <button type="button" class="btn btn-default">Detalles</button>
                             </div>
                         </div>
-                    </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="col-xs-6 col-sm-6 col-md-4"> 
                         <!--Product 4-->
-                        <div class="thumbnail">
-                            <img src="./images/camiseta-4.jpg" alt="Camiseta 4">
-                            <div class="imagen">
-                                <h4><strong>Santo Domingo Tigers</strong></h4>
-                                <p>En honor a este gran equipo.</p>
-                                <button type="button" class="btn btn-primary"><strong>$229</strong><i class="glyphicon glyphicon-shopping-cart"></i></button>
-                                <button type="button" class="btn btn-default">Detalles</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <!--Product 5-->
-                        <div class="thumbnail">
-                            <img src="./images/camiseta-5.jpg" alt="Camiseta 5">
-                            <div class="imagen">
-                                <h4><strong>Una camiseta más</strong></h4>
-                                <p>Nunca sobra una así cool.</p>
-                                <button type="button" class="btn btn-primary"><strong>$229</strong><i class="glyphicon glyphicon-shopping-cart"></i></button>
-                                <button type="button" class="btn btn-default">Detalles</button>
-                            </div>
+                        
+                    <div class="thumbnail div_common">
+                        <img src="./images/camiseta-4.jpg" alt="Camiseta 4">
+                        <div class="imagen">
+                            <h4><strong>Santo Domingo Tigers</strong></h4>
+                            <p>En honor a este gran equipo.</p>
+                            <button type="button" class="btn btn-primary"><strong>$229</strong><i class="glyphicon glyphicon-shopping-cart"></i></button>
+                            <button type="button" class="btn btn-default">Detalles</button>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-4">
+                
+                    <!--Product 5-->
+                    <div class="thumbnail div_common">
+                        <img src="./images/camiseta-5.jpg" alt="Camiseta 5">
+                        <div class="imagen">
+                            <h4><strong>Una camiseta más</strong></h4>
+                            <p>Nunca sobra una así cool.</p>
+                            <button type="button" class="btn btn-primary"><strong>$229</strong><i class="glyphicon glyphicon-shopping-cart"></i></button>
+                            <button type="button" class="btn btn-default">Detalles</button>
+                        </div>
+                    </div>
+                  </div>
+                
+                </div>
+                        
+                    
             </div>
         </div>
         </div>
